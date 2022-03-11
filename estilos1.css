@@ -1,0 +1,26 @@
+body{
+    margin: 0px; font-family: monospace; background-color: whitesmoke;
+}
+
+.header{
+    background-color: black; width: 100%; border-bottom: 3px blue solid;
+}
+
+h1{
+margin-top: 0px;
+ color: blue;
+}
+
+.header .container{
+  width: 70%;  
+  display: flex; 
+}
+
+.navbar{
+width: 750px; list-style: none;
+ align-items: center; 
+ justify-content: space-between;  
+display: flex;
+color: orangered;
+}
+

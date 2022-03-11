@@ -1,16 +1,6 @@
-h1, p, i {
-    color: blueviolet;
-    font-size: 20px;
-    font-family: monospace;
+.header{
+background-color: violet; width: 100%;
 
 
-}
-
-.titulo{
-    color:red;
-}
-
-#paragrafo{
-color: aquamarine;
 
 }
