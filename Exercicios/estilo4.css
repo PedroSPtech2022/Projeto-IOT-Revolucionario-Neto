@@ -1,0 +1,38 @@
+body{
+background-color: rgb(207, 198, 198);
+}
+
+.div1 {
+
+background-color: white;
+height: 500px;
+width: 50%;
+border: 10px;
+border: dotted;
+border-color:black ;
+display: column flex;
+justify-items: center;
+}
+
+.div1 .div2 {
+
+background-color: yellow;
+height: 50px;
+width: 30%;
+}
+
+.div1 .div3 {
+
+    background-color: rgb(168, 109, 0);
+    height: 100px;
+    width: 30%;
+}
+
+.div1 .div4 {
+    background-color: rgb(2, 133, 2);
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}

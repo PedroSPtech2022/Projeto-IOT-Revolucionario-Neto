@@ -1,0 +1,40 @@
+body {
+
+background-image: url(https://4.bp.blogspot.com/-LCzu8hoxgsc/VMbI3Mx6xWI/AAAAAAAAbf4/SxA56AzMaHs/s1600/kandinsky_transverse_lines.jpg);
+
+
+}
+
+.Quadro {
+    background-color: #ffa500;
+    height: 500px;
+    width: 500px;
+   border-radius: 15%;
+}
+
+.Quadro .Filho {
+    background-color: #adff2f;
+    width: 50%;
+    height: 100%;
+}
+
+.Filho .paragrafo {
+    text-decoration-color: #ffffff;
+    background-color: #ff0000;
+    font-size: 25px;
+    font-family: monospace;
+    font-style: bold;
+}
+
+.Janela {
+height:50%;
+background-color: rgb(75, 75, 177);
+border-radius: 8%;
+}
+
+.Janela .Janela2 {
+width: 75%;
+height: 50%;
+background-color: rgb(161, 38, 38);
+border-radius: 8%;
+}
