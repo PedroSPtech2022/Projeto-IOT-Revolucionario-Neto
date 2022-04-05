@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Righteous&family=Sarala:wght@400;700&display=swap%27');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+    text-decoration: none;
+}
+
+
+body{ 
+
+background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e0cc328008799.56e41b35c50a5.gif);
+height: 100%;
+width: 100%;
+}
+
+.header{
+
+justify-content: center;
+height: 8vh;
+margin-left: 185px;
+margin-top: 1%;
+}
+
+.botao{
+
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    height: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 6.25rem;
+    border: none;
+    font-family:  'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(130, 10, 209);
+    transition: 0.6s;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.botao {
+background-color: white;
+    color:rgb(130, 10, 209);
+    font-style: color black;
+    border: none;
+}
+
+.botao:hover {
+
+    box-shadow: 0 0 10px rgb(130, 10, 209);
+    cursor:pointer;
+    color: rgb(255, 255, 255);
+    background: rgb(130, 10, 209);
+    -webkit-transform:scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    border: none;
+}
+
+
+.Caixa{
+
+background: linear-gradient(68.15deg, #ff8800 16.62%, rgb(130, 10, 209) 85.61%);
+height: 380px;
+width: 300px;
+border-radius: 3%;
+padding: 50px;
+margin-top: 1%;
+transition: 0.3s;
+align-items: center;
+justify-content: space-around;
+margin-left: auto;
+margin-right: auto;
+position: center;
+}
+
+.Caixa:hover {
+
+    -webkit-transform:scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.Login {
+
+margin: 18px;
+background-color: #ffffff71;
+border: none;
+color: white;
+transition: 0.3;
+height: 22px;
+padding: 10px;
+width: 80%;
+align-items: center;
+justify-content: center;
+}
+
+.Login:hover{
+
+    -webkit-transform:scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    border: none;
+}
+
+.Senha {
+
+    background-color: #ffffff71;
+    border: none;
+    color: white;
+    transition: 0.3;
+    height: 22px;
+    padding: 10px;
+    width: 80%;
+}
+
+.Senha:hover {
+
+    -webkit-transform:scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    border: none;
+}
+
+.Caixa .logos{
+
+background-image: url(logo.png);    
+height:top 20%;
+height: 146px;
+width: 314px;
+transition: 0.6s;
+cursor:pointer ;
+}
+
+.Caixa .logos:hover{
+
+    -webkit-transform:scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.Caixa .esqueceu:hover {
+    
+    opacity: 0.7;
+    cursor: pointer; 
+}
+.Caixa .visitante{
+
+margin-top: 5px;
+    display: flex;
+justify-content: center;
+gap: 10px;
+align-items: center;
+}
+
+.Caixa .visitante:hover {
+
+    opacity: 0.7;
+    cursor: pointer;
+}
